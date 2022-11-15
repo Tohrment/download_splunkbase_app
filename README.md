@@ -2,22 +2,23 @@
 
 This utility provides a convenient method for Splunk administrators to download Splunkbase apps via the command line using a Python3 script. 
 
-It's inspired by [https://github.com/tfrederick74656/splunkbase-download](https://github.com/tfrederick74656/splunkbase-download)
+This is a fork of [https://github.com/marcusschiesser/splunkbase-download](https://github.com/marcusschiesser/splunkbase-download) which does not work
+with the current Splunkbase. It was inspired by [https://github.com/tfrederick74656/splunkbase-download](https://github.com/tfrederick74656/splunkbase-download)
 which unfortunately isn't working anymore with `sid` and `SSOID` authentication as [Splunk changed the authentication method](https://github.com/tfrederick74656/splunkbase-download/issues/1).
 
 ## Installation
 
 Simply download the script and make it executable:
 ```
-wget https://raw.githubusercontent.com/marcusschiesser/splunkbase-download/main/download-splunkbase.py
+wget https://raw.githubusercontent.com/tohrment/download_splunkbase_app/main/downloadSplunkBaseApp.py
 chmod +x ./download-splunkbase.py
 ```
 
-Call then `./download-splunkbase.py` to get help how to use the script.
+Call then `./downloadSplunkBaseApp.py` to get help how to use the script.
 
 If needed, install the requirements:
 ```
-pip install $(curl -s https://raw.githubusercontent.com/marcusschiesser/splunkbase-download/main/requirements.txt)
+pip install $(curl -s https://raw.githubusercontent.com/tohrment/download_splunkbase_app/main/requirements.txt)
 ```
 
 ## Disclaimer
