@@ -11,7 +11,7 @@ which unfortunately isn't working anymore with `sid` and `SSOID` authentication 
 Simply download the script and make it executable:
 ```
 wget https://raw.githubusercontent.com/tohrment/download_splunkbase_app/main/downloadSplunkBaseApp.py
-chmod +x ./download-splunkbase.py
+chmod +x ./downloadSplunkBaseApp.py
 ```
 
 Call then `./downloadSplunkBaseApp.py` to get help how to use the script.
